@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.about-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.about-col{
+	flex-basis: 48%;
+	padding: 30px 2px;
+}
+.about-col img{
+	width: 30%;
+}
+.about-col h1{
+	padding-top: 0;
+}
+.about-col p{
+	padding: 15px 0 25px;
+}
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid black;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover{
+	border: 1px solid white;
+	background: green;
+	transition: 0.5s;
+}
+.red-btn{
+	border: 1px solid darkred;
+	background: transparent;
+	color: darkred;
+}
+.red-btn:hover{
+	color: white;
+}

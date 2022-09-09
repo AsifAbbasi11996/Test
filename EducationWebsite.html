@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Univesity Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style8.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,500;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+
+	<style>
+	body{
+	     background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url("img/123.jpg");
+	    
+	     background-position: 0px 0px, 500px 0px;
+	     
+	     min-height: 100vh;
+	     background-position: fixed;
+	     
+     }
+	</style>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="EducationWebsite.html"><img src="img/R.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+				<h5>
+					<li><a href="">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="campus.html">CAMPUS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</h5>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+<div class="text-box">
+	<h1>India's Biggest University</h1>
+	<p>Making website is now one of the easiest thing in the world.You just need to learn HTML, CSS, <br>Javascript and you are good to go.</p>
+	<a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+	</section> 
+
+
+<!----Javascript for Toggle Menu---->
+	<script>
+		var navlinks = document.getElementsById("navlinks");
+		function showMenu(){
+		    navlinks.style.right = "0px";
+		}
+		function hideMenu(){
+			navlinks.style.right = "-200px";
+		}
+
+	</script>
+
+
+<!------------ footer ------------------>
+
+
+<!--<footer>
+<section class="footer">
+	<h4>About Us</h4>
+	<p>paragraph</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+</footer>
+</body>
+</html>
